@@ -3,9 +3,10 @@ import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between">
-      <div className="flex min-h-screen w-full flex-col items-center justify-between p-16 bg-[#482BE780]">
+    <main className="flex min-h-screen flex-col items-center justify-between home-bg-image">
+      <div className="flex min-h-screen w-full flex-col items-center justify-between p-16 bg-[#482BE770]">
         <Navbar />
+        {/* landing page items */}
         <div className="flex items-center justify-between w-full">
           <div>
             <FaChevronLeft size={25} color="lightgray" />
