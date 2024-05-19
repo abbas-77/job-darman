@@ -3,7 +3,7 @@ import React from "react";
 function login() {
   return (
     <div className="flex min-h-screen flex-col items-center justify-between login-bg-image">
-      <div className="flex min-h-screen w-full items-center justify-between gap-5 px-36 py-16 bg-[#482BE770]">
+      <div className="flex min-h-screen w-full items-center justify-between gap-5 px-36 py-16 bg-[#472be770]">
         <div className="w-[410px] h-[550px] flex flex-col items-center justify-center">
           <p className="text-[44px] text-white font-semibold">
             We solve digital problems with an outstanding creative flare
